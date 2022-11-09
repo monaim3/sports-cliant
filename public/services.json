@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Manchester United",
+        "price": "300",
+        "description": "Man U are by far the most successful in the Premier League but have never had too much success in Europe. They have won 3 titles out of 28 appearances, in 1968, 1999, 2008, and have been runner-up twice. Only won the Europa League once. ",
+        "img": "https://i.ibb.co/x5MCZ1M/nat-callaghan-IEma-R3ecfu-Y-unsplash.jpg"
+    },
+    {
+ 
+        "name": "Juventus",
+        "price": "200",
+        "description": "The Italian club has won 2 Champions League titles, in 1985 and 1996. They have been runners-up 7 times and made the league 33 times. They have 3 Europa League wins. Man U may have one more title than Juventus but being a runner-up an incredible 7 times speaks for the quality of this club.",
+        "img": "https://static01.nyt.com/images/2021/12/03/multimedia/03rory-dybala/03rory-dybala-superJumbo.jpg"
+    },
+    {
+   
+        "name": "Inter Milan",
+        "price": "150",
+        "description": "This Italian side won 3 titles in 1964, 1965, 2010 and are runner up twice in a total of 20 appearances. Add on 3 Europa League titles.",
+        "img": "https://www.soccerbible.com/media/137884/inter-1-min.jpg"
+    },
+    {
+       
+        "name": "Barcelona",
+        "price": "180",
+        "description": "The Dutch giants have won 4 Champions League titles in 1971, 1972, 1973, 1995, twice runners up and competed 35 times. They have won the Europa League just once.",
+        "img": "https://www.fcbarcelona.com/photo-resources/2022/10/23/5288a53a-768f-45a2-a1a8-2d1d3a4075ca/VIC_1659.jpg?width=1200&height=750"
+    },
+    {
+        
+        "name": "Liverpool",
+        "price": "400",
+        "description": "This English club has had far more success than Man U in Europe and had a massive few years. They may have only made the Champions League 25 times but the success rate is pretty good with 7 wins in – 1977, 1978, 1981, 1984, 2005, 2019, and lost to Real Madrid 0-1 in 2020.",
+        "img": "https://m.media-amazon.com/images/M/MV5BZDc2MTE3ZmQtOWQwNi00ZjBiLWFmZTctNzQ3Y2JlNmZiMWFmXkEyXkFqcGdeQXVyOTU5Njc3ODI@._V1_.jpg"
+    },
+    {
+       
+        "name": "Bayern Munich",
+        "price": "350",
+        "description": "The German club are 5-time winners in 1974, 1975, 1976, 2001, 2013, 2020 and 5 times runner up out of 35 appearances. Bayern are too good for the Europa League but have won it once. Liverpool have one more titles but Bayern have qualified 35 times and been runner up 5 times, v’s Liverpool’s 25 appearances and 3 times runners up.",
+        "img": "https://img.fcbayern.com/image/upload/t_cms-16x9/f_auto/w_1600,c_fill/q_auto/v1656617617/cms/public/images/fcbayern-com/homepage/Teamfoto/Teamfoto.jpg"
+    }
+]
