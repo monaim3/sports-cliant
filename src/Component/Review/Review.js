@@ -17,9 +17,9 @@ const Review = ({singleData}) => {
         const order = {
             service: singleData._id,
             TeamName: singleData.name,
-         
             email,
-            message
+            message,
+            date:new Date()
         }
 
         fetch('https://sports-server.vercel.app/review', {
@@ -54,6 +54,8 @@ const Review = ({singleData}) => {
           <input type="text"  defaultValue={singleData.name} name="username"placeholder="Type here" className="input input-bordered w-full max-w-xs" /><br></br>
           <label for="email">Email:</label>
           <input type="email" readOnly value={user?.email} name="email" placeholder="Type here" className="input input-bordered w-full max-w-xs" /><br></br>
+        
+          
           <label for="review">Review:</label>
           <textarea className="textarea  input-bordered w-full max-w-xs" placeholder="Review" name="review"></textarea><br></br>
            <input type="submit" value="Submit" className='btn btn-primary bg-cyan-400'/>

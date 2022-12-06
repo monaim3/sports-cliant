@@ -5,7 +5,7 @@ import { AuthContex } from '../UserContext/UserContext';
 import { toast, ToastContainer } from 'react-toastify';
 const Reviewtable = ({ item, handelete, handleEdit }) => {
     const { user } = useContext(AuthContex)
-    const [updateReview,setUpdateReview]=useState({})
+    const [updateReview,setUpdateReview]=useState(item)
     console.log(updateReview);
     const { _id, message, email, customerName, TeamName, service } = item;
 

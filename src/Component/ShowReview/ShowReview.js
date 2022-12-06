@@ -5,6 +5,7 @@ import { AuthContex } from '../UserContext/UserContext';
 
 const ShowReview = () => {
     const [review,setReview]=useState([])
+    console.log(review);
     const { user, logOut } = useContext(AuthContex);
     useEffect(() => {
         fetch(`https://sports-server.vercel.app/review?email=${user?.email}`, {
@@ -13,9 +14,6 @@ const ShowReview = () => {
             }
         })
             .then(res => {
-                if (res.status === 401 || res.status === 403) {
-                    return logOut();
-                }
                 return res.json();
             })
             .then(data => {
