@@ -1,4 +1,4 @@
-<h1 align="center">sport related Website</h1>
+<h1 align="center">sports related Website</h1>
 <a href='https://sports-club-10f0d.web.app/' /> Live site Link: TeamFun-website </a>
 
 <h2> Features :</h2>
